@@ -1,0 +1,15 @@
+{
+	"name": "FearThree",
+	"vendorId": "0x46D4",
+	"productId": "0x463D",
+	"lighting": "none",
+	"matrix": {
+		"rows": 1,
+		"cols": 3
+	},
+	"layouts": {
+		"keymap": [
+			["0,0", "0,1", "0,2"]
+		]
+	}
+}
