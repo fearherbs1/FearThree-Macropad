@@ -37,4 +37,18 @@ The parts are quite small, so you should be able to print all of the parts in on
 
 The stls are located in the repo [HERE](https://github.com/fearherbs1/FearThree-Macropad/tree/main/3d%20models/STL) and the Fusion 360 files are located [HERE](https://github.com/fearherbs1/FearThree-Macropad/tree/main/3d%20models/Fusion360%20Files) if you would like to modify the case.   [psst: you can get a fusion360 license for free with a student email!](https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1)   
 
+Once the parts are printed out, I recommend doing a quick test fit for the parts as shown below, the pro micro should loosly fit in its corrosponding hole and not be too hard to remove and the mx switches should click into the switchplate.
+
+![](https://i.imgur.com/dM6NVa7.jpg)  
+
+
+## Step 2: Flashing The Promicro
+
+Download [QMK toolbox](https://github.com/qmk/qmk_toolbox/releases) and the [corrosponding firmware file](https://github.com/fearherbs1/FearThree-Macropad/tree/main/firmware/compiled%20hex%20files) you would like to use.   
+
+
+ I **highly** suggest you use the VIA version, `FearThree_default_via.hex`, for easy key remapping without having to re-compile the firmware.
+
+If you would like to create a keymap in QMK The Keyboard Folder is located in the repo [HERE](https://github.com/fearherbs1/FearThree-Macropad/tree/main/firmware/qmk%20source/FearThree)
+
 
