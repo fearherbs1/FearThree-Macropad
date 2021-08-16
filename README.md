@@ -18,3 +18,6 @@ A FearThree Built with L+F Gateron Yellows, PLA case, and [GMK Dogethink v2 Arti
 * Solder & Solder Iron
 
 # Build Guide
+
+## Step 1: Printing the parts 
+
