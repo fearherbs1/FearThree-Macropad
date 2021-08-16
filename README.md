@@ -51,4 +51,12 @@ Download [QMK toolbox](https://github.com/qmk/qmk_toolbox/releases) and the [cor
 
 If you would like to create a keymap in QMK The Keyboard Folder is located in the repo [HERE](https://github.com/fearherbs1/FearThree-Macropad/tree/main/firmware/qmk%20source/FearThree)
 
+Once you have chosen your firmware, open QMK toolbox and plug the pro micro into your computer.  
+
+Select your firmware file and select `atmega32u4` for your MCU aswell as check the `Auto-Flash` Checkbox:  
+
+![](https://i.imgur.com/jRC7ozp.png)
+
+Then using a paperclip or some tweasers, quicky short the RST and GND pins on the pro micro twice. It may not work and qmk toolbox may show `Acess denied`. If this happenes, just keep shorting those pins untill it works. 
+
 
