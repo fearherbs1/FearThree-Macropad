@@ -57,6 +57,42 @@ Select your firmware file and select `atmega32u4` for your MCU aswell as check t
 
 ![](https://i.imgur.com/jRC7ozp.png)
 
-Then using a paperclip or some tweasers, quicky short the RST and GND pins on the pro micro twice while it is pluged into your computer. This should allow QMK toolbox to flash the firmware. It may not work and qmk toolbox may show `Acess denied`. If this happenes, just keep shorting those pins, retrying the process until it works. 
+Then using a paperclip or some tweasers, quicky short the RST and GND pins on the pro micro twice while it is pluged into your computer. This should allow QMK toolbox to flash the firmware. It may not work and qmk toolbox may show `Acess denied`. If this happenes, just keep shorting those pins, retrying the process until it works.   
+
+Once the firmware is flashed you should get a message that looks like the following:  
+
+![](https://i.imgur.com/nbqd57n.png)
 
 
+## Step 3: Wiring The Switches
+
+Now that our pro micro is ready we can begin to wire up our switches.  
+
+### Wiring Diagram:  
+
+Luckily since we only need to wire up three switches, there is no need for any diodes as the pro micro has plenty of pins for us to use.
+
+![](https://i.imgur.com/JioVO2a.png)
+
+
+### Wiring Step 1:
+
+First, install your desired switches into the switchplate and prepare a piece of hookup wire, if you have multiple colors to use it definitely aids in not mixing wires up. 
+
+This first piece of wire will be the black on in the diagram, our ground. This wire will connect to a pin on all 3 switches and connnect to the ground pin on our pro micro. 
+
+Using a wire striper, remove the shielding of the wire where it needs to connect to the switches and solder it, as seen below:
+
+![](https://i.imgur.com/YIHFi33.jpg)
+
+### Wiring Step 2:
+
+Once the ground wire is done, cut 3 more pices of wire and solder them to each switch, cable management can be improved by making the red wire shorter than the green wire and the green wire shorter than the yellow one:
+
+![](https://i.imgur.com/ltGJ1lm.jpg)
+
+### Wiring Step 3:
+
+Next we can strip the end of each wire and solder it to its corrosponding pin on the promicro:
+
+![](https://i.imgur.com/PsI8FYZ.jpg)
