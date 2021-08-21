@@ -1,5 +1,5 @@
 # FearThree-Macropad
-A simple and open source 3 key hand-wired macro pad with QMK and VIA Support.  
+A simple and open source 3 key hand-wired macro pad with QMK and VIA Support. Made from modifiying the case files generated with the [swillkb plate and case builder](http://builder.swillkb.com/), aswell as some help from this awesome [handwired keyboard guide](https://www.crackedthecode.co/a-complete-guide-to-building-a-hand-wired-keyboard/) written by Ben Chapman:
 
   
 ![](https://i.imgur.com/zvou6rN.jpg)  
@@ -96,3 +96,52 @@ Once the ground wire is done, cut 3 more pices of wire and solder them to each s
 Next we can strip the end of each wire and solder it to its corrosponding pin on the promicro:
 
 ![](https://i.imgur.com/PsI8FYZ.jpg)
+
+Nice! Now all of the soldering is done.  
+
+
+## Step 4: Final Assembly & Testing
+
+Its now time to put everything all together! Start by using 2 small pieces of electrical tape on the back and front side of the pro micro, this will allow it to friction fit into its part of the case by giving the back part a little bit more thickness. Use another piece of electical tape to cover the back switches, to prevent any possible shorting to the pro micro:
+
+![](https://i.imgur.com/mhbFTmc.jpg)
+
+
+**NOTE** **You want the USB port to be on the right side, and the switches to be south facing, when aligning the plate to the case.**   
+See this photo for reference: Note the direction of the Gateron branding.
+
+![](https://i.imgur.com/gf3j2SQ.jpg)
+
+
+Then assemble the case in the following order top to bottom and insert the screws. The holes are just the right size to allow the screws to screw in without having to use any nuts:
+
+![](https://i.imgur.com/VN2aabI.png)
+
+## Step 5: Final Step Testing & VIA
+
+Now its time to setup VIA so we can reprogram our keys.   
+
+First download via from [HERE](https://caniusevia.com/) if you have not already as well as the VIA json file from the repo [HERE](https://github.com/fearherbs1/FearThree-Macropad/tree/main/firmware/via%20json)  
+
+This json file is needed so VIA can know how our macropad is wired.
+Once VIA is opened, click the settings tab and make sure `Show Design tab` is checked:
+
+![](https://i.imgur.com/LNXIMUa.png)
+
+Then click the design tab and click load, selecting the downloaded json file, your VIA should look like this once the json is loaded:
+
+![](https://i.imgur.com/S0ZD693.png)
+
+Now plug in your FearThree and navigate to the `configure` tab, it should now show up and be programmable! More info on how to use VIA is available in an awesome video made by Austin V [HERE](https://www.youtube.com/watch?v=78zVepszCmE) 
+
+![](https://i.imgur.com/LgdbEJY.png)
+
+You can also double check your wiring by navigating to the `Key Tester` tab and checking the `test matrix` box. Each time you press a key it should glow up pink on VIA:
+
+![](https://i.imgur.com/VdUD8Gc.png)
+
+
+## Done!
+
+I hope you enjoy your new 3 key macropad! If you have any questions feel free to send me a message on reddit: `/u/fearherbs`
+
