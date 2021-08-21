@@ -57,6 +57,6 @@ Select your firmware file and select `atmega32u4` for your MCU aswell as check t
 
 ![](https://i.imgur.com/jRC7ozp.png)
 
-Then using a paperclip or some tweasers, quicky short the RST and GND pins on the pro micro twice. It may not work and qmk toolbox may show `Acess denied`. If this happenes, just keep shorting those pins untill it works. 
+Then using a paperclip or some tweasers, quicky short the RST and GND pins on the pro micro twice while it is pluged into your computer. This should allow QMK toolbox to flash the firmware. It may not work and qmk toolbox may show `Acess denied`. If this happenes, just keep shorting those pins, retrying the process until it works. 
 
 
