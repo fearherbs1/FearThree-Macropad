@@ -1,5 +1,5 @@
 # FearThree-Macropad
-A simple and open source 3 key hand-wired macro pad with QMK and VIA Support. Made from modifiying the case files generated with the [swillkb plate and case builder](http://builder.swillkb.com/), aswell as some help from this awesome [handwired keyboard guide](https://www.crackedthecode.co/a-complete-guide-to-building-a-hand-wired-keyboard/) written by Ben Chapman:
+A simple and open source 3 key hand-wired macro pad with QMK and VIA Support. Made from modifiying the case files generated with the [swillkb plate and case builder](http://builder.swillkb.com/), as well as some help from this awesome [handwired keyboard guide](https://www.crackedthecode.co/a-complete-guide-to-building-a-hand-wired-keyboard/) written by Ben Chapman:
 
   
 ![](https://i.imgur.com/zvou6rN.jpg)  
@@ -7,7 +7,7 @@ A FearThree Built with L+F Gateron Yellows, PLA case, and [GMK Dogethink v2 Arti
 
 # Parts & Software Required  
 
-* Pro Micro / Elite-C 
+* Pro Micro / Elite-C (note: elite-c is untested as I did not have an extra one onhand)
 * Micro USB / USB-C Cable 
 * 3 MX Switches  
 * 3 MX Keycaps
