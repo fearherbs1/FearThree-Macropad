@@ -7,7 +7,7 @@ A FearThree Built with L+F Gateron Yellows, PLA case, and [GMK Dogethink v2 Arti
 
 # Parts & Software Required  
 
-* Pro Micro / Elite-C (note: elite-c is untested as I did not have an extra one onhand)
+* Pro Micro / Elite-C (note: elite-c is untested as I did not have an extra one on hand)
 * Micro USB / USB-C Cable 
 * 3 MX Switches  
 * 3 MX Keycaps
