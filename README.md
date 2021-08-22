@@ -42,9 +42,9 @@ Once the parts are printed out, I recommend doing a quick test fit for the parts
 ![](https://i.imgur.com/dM6NVa7.jpg)  
 
 
-## Step 2: Flashing The Promicro
+## Step 2: Flashing The Pro Micro
 
-Download [QMK toolbox](https://github.com/qmk/qmk_toolbox/releases) and the [corrosponding firmware file](https://github.com/fearherbs1/FearThree-Macropad/tree/main/firmware/compiled%20hex%20files) you would like to use.   
+Download [QMK toolbox](https://github.com/qmk/qmk_toolbox/releases) and the [corresponding firmware file](https://github.com/fearherbs1/FearThree-Macropad/tree/main/firmware/compiled%20hex%20files) you would like to use.   
 
 
  I **highly** suggest you use the VIA version, `FearThree_default_via.hex`, for easy key remapping without having to re-compile the firmware.
@@ -57,7 +57,7 @@ Select your firmware file and select `atmega32u4` for your MCU aswell as check t
 
 ![](https://i.imgur.com/jRC7ozp.png)
 
-Then using a paperclip or some tweasers, quicky short the RST and GND pins on the pro micro twice while it is pluged into your computer. This should allow QMK toolbox to flash the firmware. It may not work and qmk toolbox may show `Acess denied`. If this happenes, just keep shorting those pins, retrying the process until it works.   
+Then using a paperclip or some tweasers, quicky short the RST and GND pins on the pro micro twice while it is plugged into your computer. This should allow QMK toolbox to flash the firmware. It may not work and qmk toolbox may show `Access Denied`. If this happenes, just keep shorting those pins, retrying the process until it works.   
 
 Once the firmware is flashed you should get a message that looks like the following:  
 
@@ -81,19 +81,19 @@ First, install your desired switches into the switchplate and prepare a piece of
 
 This first piece of wire will be the black on in the diagram, our ground. This wire will connect to a pin on all 3 switches and connnect to the ground pin on our pro micro. 
 
-Using a wire striper, remove the shielding of the wire where it needs to connect to the switches and solder it, as seen below:
+Using a wire stripper, remove the shielding of the wire where it needs to connect to the switches and solder it, as seen below:
 
 ![](https://i.imgur.com/YIHFi33.jpg)
 
 ### Wiring Step 2:
 
-Once the ground wire is done, cut 3 more pices of wire and solder them to each switch, cable management can be improved by making the red wire shorter than the green wire and the green wire shorter than the yellow one:
+Once the ground wire is done, cut 3 more pieces of wire and solder them to each switch, cable management can be improved by making the red wire shorter than the green wire and the green wire shorter than the yellow one:
 
 ![](https://i.imgur.com/ltGJ1lm.jpg)
 
 ### Wiring Step 3:
 
-Next we can strip the end of each wire and solder it to its corrosponding pin on the promicro:
+Next we can strip the end of each wire and solder it to its corresponding pin on the pro micro:
 
 ![](https://i.imgur.com/PsI8FYZ.jpg)
 
@@ -117,11 +117,11 @@ Then assemble the case in the following order top to bottom and insert the screw
 
 ![](https://i.imgur.com/VN2aabI.png)
 
-## Step 5: Final Step Testing & VIA
+## Step 5: Final Step: Testing & VIA
 
 Now its time to setup VIA so we can reprogram our keys.   
 
-First download via from [HERE](https://caniusevia.com/) if you have not already as well as the VIA json file from the repo [HERE](https://github.com/fearherbs1/FearThree-Macropad/tree/main/firmware/via%20json)  
+First download via from [HERE](https://caniusevia.com/) if you have not already, as well as the VIA json file from the repo [HERE](https://github.com/fearherbs1/FearThree-Macropad/tree/main/firmware/via%20json)  
 
 This json file is needed so VIA can know how our macropad is wired.
 Once VIA is opened, click the settings tab and make sure `Show Design tab` is checked:
