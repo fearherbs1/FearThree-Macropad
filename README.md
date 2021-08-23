@@ -14,7 +14,6 @@ A FearThree Built with L+F Gateron Yellows, PLA case, and [GMK Dogethink v2 Arti
 * Access to a 3d Printer & slicing software
 * The 3d Printed Case
 * 4 M2x16mm Screws
-* Small Piece of Electrical Tape
 * Small Hookup Wire
 * Solder & Solder Iron
 * Some electrical Tape
